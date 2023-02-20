@@ -1,0 +1,5 @@
+region               = "us-west-2"
+project-name         = "rubyapp"
+vpc_cidr             = "10.0.0.0/16"
+username = "eltonadmin"
+password = "eltonadmin"
