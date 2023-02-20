@@ -52,6 +52,6 @@ terraform {
     bucket = "cedric-test-ade"
     key    = "terraform.tfstate"
     region = "us-west-1"
-    access_key =  ${{secret_key}}
-    secret_key =  ${{secret_key}}
+    access_key =  ${{ secret_key }}
+    secret_key =  ${{ secret_access_key }}
 }
